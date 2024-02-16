@@ -1,3 +1,34 @@
+* {
+  font-family: 'Courier New', monospace;
+}
+
+body {
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+h1,
+h2 {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 16px;
+  max-width: 60%;
+}
+
+li {
+  max-width: 60%;
+}
+
 .nav {
   background-color: burlywood;
   text-align: center;
@@ -16,6 +47,7 @@
 
 .ingredients-list li {
   font-size: 16px;
+  margin: 10px;
 }
 
 .steps-list {
