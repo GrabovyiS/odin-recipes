@@ -40,6 +40,10 @@ li {
   font-size: 24px;
 }
 
+.nav li {
+  max-width: 100%;
+}
+
 .ingredients-list {
   list-style-type: "\1F357 \00a0"; /* 🍗 and a space, roman numbers have a space after them */
   list-style-position: outside;
