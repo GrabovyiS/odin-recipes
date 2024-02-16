@@ -1,0 +1,27 @@
+.nav {
+  background-color: burlywood;
+  text-align: center;
+  list-style-type: none;
+}
+
+.nav-link {
+  color: #050505;
+  font-size: 24px;
+}
+
+.ingredients-list {
+  list-style-type: "\1F357 \00a0"; /* 🍗 and a space, roman numbers have a space after them */
+  list-style-position: outside;
+}
+
+.ingredients-list li {
+  font-size: 16px;
+}
+
+.steps-list {
+  list-style-type: upper-roman;
+}
+
+.steps-list li {
+  font-size: 22px;
+}
