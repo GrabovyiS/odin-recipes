@@ -1,5 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+
 * {
   font-family: 'Courier New', monospace;
+  box-sizing: inherit;
 }
 
 body {
@@ -14,6 +19,7 @@ h2 {
 
 h1 {
   font-size: 42px;
+  text-align: center;
 }
 
 h2 {
@@ -25,23 +31,25 @@ p {
   max-width: 60%;
 }
 
-li {
-  max-width: 60%;
+.main-nav {
+  padding: 16px;
+  background-color: burlywood;
+  width: 300px;
+  margin: auto;
 }
 
-.nav {
-  background-color: burlywood;
+.nav-list {
+  margin: 0 auto;
+  background-color: white;
+  padding: 16px;
+  /* width: 200px; */
   text-align: center;
   list-style-type: none;
 }
 
-.nav-link {
-  color: #050505;
-  font-size: 24px;
-}
-
-.nav li {
-  max-width: 100%;
+.nav-list li {
+  margin: 8px auto;
+  background-color: burlywood;
 }
 
 .ingredients-list {
